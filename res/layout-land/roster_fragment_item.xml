@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/playerNo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:gravity="left|center_vertical" />
+
+    <TextView
+        android:id="@+id/playerName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="22"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/playerHt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/playerWt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/playerPos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/playerYear"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/playerHS"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="48"
+        android:gravity="center" />
+
+</LinearLayout>

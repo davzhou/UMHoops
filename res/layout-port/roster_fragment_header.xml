@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navy_blue"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:text="@string/roster_header_no"
+            android:textColor="@color/maize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="44"
+            android:gravity="center"
+            android:text="@string/roster_header_name"
+            android:textColor="@color/maize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="12"
+            android:gravity="center"
+            android:text="@string/roster_header_ht"
+            android:textColor="@color/maize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="12"
+            android:gravity="center"
+            android:text="@string/roster_header_wt"
+            android:textColor="@color/maize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="12"
+            android:gravity="center"
+            android:text="@string/roster_header_pos"
+            android:textColor="@color/maize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="12"
+            android:gravity="center"
+            android:text="@string/roster_header_year"
+            android:textColor="@color/maize"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/roster_header_hs"
+        android:textColor="@color/maize"
+        android:textStyle="bold" />
+
+</LinearLayout>

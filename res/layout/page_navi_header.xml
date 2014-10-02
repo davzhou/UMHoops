@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:weightSum="70" >
+
+    <TextView
+        android:id="@+id/prevPage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="2dp"
+        android:layout_weight="10"
+        android:background="@drawable/textview_selector"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/prev_page_text"
+        android:textColor="@color/textview_gray_unenabled"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/page1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_weight="10"
+        android:background="@drawable/textview_selector"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/textview_gray_unenabled" />
+
+    <TextView
+        android:id="@+id/page2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_weight="10"
+        android:background="@drawable/textview_selector"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/textview_gray_unenabled" />
+
+    <TextView
+        android:id="@+id/page3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_weight="10"
+        android:background="@drawable/textview_selector"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/textview_gray_unenabled" />
+
+    <TextView
+        android:id="@+id/page4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_weight="10"
+        android:background="@drawable/textview_selector"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/textview_gray_unenabled" />
+
+    <TextView
+        android:id="@+id/page5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_weight="10"
+        android:background="@drawable/textview_selector"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/textview_gray_unenabled" />
+
+    <TextView
+        android:id="@+id/nextPage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_weight="10"
+        android:background="@drawable/textview_selector"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/next_page_text"
+        android:textColor="@color/textview_gray_unenabled"
+        android:textSize="16sp" />
+
+</LinearLayout>

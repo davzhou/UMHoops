@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navy_blue"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:gravity="left|center_vertical"
+        android:text="@string/roster_header_no"
+        android:textColor="@color/maize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="22"
+        android:gravity="center"
+        android:text="@string/roster_header_name"
+        android:textColor="@color/maize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:gravity="center"
+        android:text="@string/roster_header_ht"
+        android:textColor="@color/maize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:gravity="center"
+        android:text="@string/roster_header_wt"
+        android:textColor="@color/maize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:gravity="center"
+        android:text="@string/roster_header_pos"
+        android:textColor="@color/maize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:gravity="center"
+        android:text="@string/roster_header_year"
+        android:textColor="@color/maize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="48"
+        android:gravity="center"
+        android:text="@string/roster_header_hs"
+        android:textColor="@color/maize"
+        android:textStyle="bold" />
+
+</LinearLayout>

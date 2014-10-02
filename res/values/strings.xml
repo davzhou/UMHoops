@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UMHoops</string>
+    <string name="menu_blog_page">Blog</string>
+    <string name="menu_forum_page">Forum</string>
+    <string name="menu_recruit_page">Recruiting</string>
+    <string name="img_description">UMHoops Image</string>
+    <string name="title_activity_blog_entry">Blog Entry</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_blog_entry_frag">Blog Entry</string>
+    <string name="title_activity_forum_thread_frag">Forum Thread</string>
+    <string name="list_loading_text">Loading more entries...</string>
+    <string name="list_loading_button">Load more entries</string>
+    <string name="forum_views_text">Views</string>
+    <string name="forum_comments_text">Comments</string>
+    <string name="prev_page_text">«</string>
+    <string name="next_page_text">»</string>
+    <string name="menu_roster_page">Roster</string>
+    <string name="roster_header_no">No.</string>
+    <string name="roster_header_name">Name</string>
+    <string name="roster_header_ht">Ht.</string>
+    <string name="roster_header_wt">Wt.</string>
+    <string name="roster_header_pos">Pos.</string>
+    <string name="roster_header_year">Year</string>
+    <string name="roster_header_hs">Hometown (HS)</string>
+    <string name="menu_schedule_page">Schedule</string>
+    <string name="b10_schedule">Big Ten Schedule</string>
+    <string name="menu_draft_page">Draft Picks</string>
+        <string name="menu_recruiting_page">Recruiting</string>
+</resources>

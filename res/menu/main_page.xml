@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/blogPage"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_blog_page"/>
+    <item
+        android:id="@+id/forumPage"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_forum_page"/>
+    <item
+        android:id="@+id/rosterPage"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_roster_page"/>
+    <item
+        android:id="@+id/schedulePage"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_schedule_page"/>
+    <!--
+         <item
+        android:id="@+id/recruitingPage"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_recruiting_page"/>
+
+    <item
+        android:id="@+id/draftPage"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_draft_page"/>
+        -->
+</menu>
