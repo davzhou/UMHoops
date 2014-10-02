@@ -43,6 +43,10 @@ public class MainPageActivity extends Activity {
             ft.replace(R.id.mainLayout, new ScheduleFragment());
             ft. commit();
             return true;
+        case R.id.draftPage:
+            ft.replace(R.id.mainLayout, new DraftFragment());
+            ft. commit();
+            return true;
         default:
             return super.onOptionsItemSelected(item);
         }

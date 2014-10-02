@@ -14,7 +14,7 @@ public class DownloadPageTask extends AsyncTask<Void, Void, Document> {
     static final int THREAD_POSTS_PER_PAGE = 20;
 
     public enum Page {
-        BLOGLIST, BLOGENTRY, FORUMLIST, THREAD, THREADFIRST, ROSTER, SCHEDULE
+        BLOGLIST, BLOGENTRY, FORUMLIST, THREAD, THREADFIRST, ROSTER, SCHEDULE, DRAFT
     }
 
     Page type;
@@ -128,6 +128,9 @@ public class DownloadPageTask extends AsyncTask<Void, Void, Document> {
             break;
         case SCHEDULE:
             source = source.substring(source.indexOf("<table class=\"tableizer-table"), source.indexOf("</table>") + 8);
+            break;
+        case DRAFT:
+            source = source.substring(source.indexOf("<table class=\"ss_table"), source.indexOf("</table>") + 8);
             break;
         default:
             break;

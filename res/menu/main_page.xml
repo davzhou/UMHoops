@@ -16,15 +16,9 @@
         android:id="@+id/schedulePage"
         android:showAsAction="ifRoom"
         android:title="@string/menu_schedule_page"/>
-    <!--
-         <item
-        android:id="@+id/recruitingPage"
-        android:showAsAction="ifRoom"
-        android:title="@string/menu_recruiting_page"/>
-
     <item
         android:id="@+id/draftPage"
         android:showAsAction="ifRoom"
-        android:title="@string/menu_draft_page"/>
-        -->
+        android:title="@string/menu_draft_page"/>
+
 </menu>
