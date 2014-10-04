@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:weightSum="100" >
+
+    <TextView
+        android:id="@+id/draftYear"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="14"
+        android:gravity="left" />
+
+    <TextView
+        android:id="@+id/draftRnd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:gravity="left" />
+
+    <TextView
+        android:id="@+id/draftPick"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:gravity="left" />
+
+    <TextView
+        android:id="@+id/draftName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="32"
+        android:gravity="left"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/draftTeam"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="34"
+        android:gravity="left" />
+
+</LinearLayout>

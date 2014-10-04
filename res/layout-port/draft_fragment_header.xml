@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navy_blue"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:weightSum="100" >
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:gravity="left"
+        android:text="@string/draft_header_year"
+        android:textColor="@color/maize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="15"
+        android:gravity="left"
+        android:textColor="@color/maize"
+        android:textStyle="bold"
+        android:text="@string/draft_header_rnd"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="15"
+        android:gravity="left"
+        android:textColor="@color/maize"
+        android:textStyle="bold"
+        android:text="@string/draft_header_pick"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:orientation="vertical"
+         >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/maize"
+            android:textStyle="bold"
+            android:text="@string/draft_header_name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/draft_header_team"
+            android:textColor="@color/maize"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

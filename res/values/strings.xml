@@ -27,5 +27,11 @@
     <string name="menu_schedule_page">Schedule</string>
     <string name="b10_schedule">Big Ten Schedule</string>
     <string name="menu_draft_page">Draft Picks</string>
-        <string name="menu_recruiting_page">Recruiting</string>
+    <string name="menu_recruiting_page">Recruiting</string>
+    <string name="draft_header_year">Year</string>
+    <string name="draft_header_rnd">Rnd</string>
+    <string name="draft_header_pick">Pick</string>
+    <string name="draft_header_name">Player</string>
+    <string name="draft_header_team">Team</string>
+
 </resources>

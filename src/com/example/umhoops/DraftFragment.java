@@ -64,6 +64,7 @@ public class DraftFragment extends ListFragment implements DownloadCallBack {
     }
 
     private void setupListView() {
+        getListView().addHeaderView(getActivity().getLayoutInflater().inflate(R.layout.draft_fragment_header, null));
         setListAdapter(new DraftAthleteAdapter(getActivity(), athletes));
         setListShown(true);
     }
